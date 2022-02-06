@@ -81,7 +81,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <form action="">
+                        @csrf
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="submit">
+                    </form>
+                    {{-- this is a comment in blate template eninge --}}
                 </div>
 
                 <div class="links">
